@@ -21,6 +21,8 @@
 
 # @cordova/eslint-config
 
+[![Coverage Status](https://coveralls.io/repos/github/erisu/cordova-eslint/badge.svg?branch=coveralls)](https://coveralls.io/github/erisu/cordova-eslint?branch=coveralls)
+
 This repository centralizes the ESLint configuration used for Cordova's development.
 
 ## Installation

@@ -45,3 +45,13 @@ jobs:
         run: npm cit
         env:
           CI: true
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.github_token }}
+
+      - name: Codecov
+        uses: codecov/codecov-action@v1.0.3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
